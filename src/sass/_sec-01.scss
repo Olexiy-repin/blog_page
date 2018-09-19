@@ -73,6 +73,20 @@
     }
   }
 
+  .sec-01__plashka {
+    width: 29.375rem;
+    height: 5.8125rem;
+  }
+
+  .sec-01__plashka-title {
+    font-size: 1rem;
+  }
+
+  .sec-01__plashka-subtitle {
+    font-size: .8rem;
+    line-height: 1.2;
+  }
+
   .sec-01__menu-container {
     display: block;
   }
@@ -122,7 +136,21 @@
 @media (min-width: 1200px) {
   .sec-01 {
     padding-top: 10.7rem;
-    padding-bottom: 9.9rem;
+    padding-bottom: 36.9rem;
+  }
+
+  .sec-01__plashka {
+    width: 62.375rem;
+    height: 11.8125rem;
+  }
+
+  .sec-01__plashka-subtitle {
+    font-size: 15px;
+  }
+
+  .sec-01__plashka-title {
+    font-size: pxToRem(28px);
+    padding: 0 5rem;
   }
 
   .sec-01__menu-item {
