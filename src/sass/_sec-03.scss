@@ -70,4 +70,40 @@
     padding: 1rem 0;
     margin-bottom: 2.8rem;
   }
+
+  .sec-03__article-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sec-03 .sec-02__article-title {
+    padding: 0 2rem;
+  }
+
+  .sec-03 .sec-02__article {
+    width: 32%;
+    margin-bottom: 0;
+    &:first-of-type {
+      width: 32%;
+    }
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .sec-03 .sec-02__article-content {
+    display: none;
+  }
+
+  .sec-02__article-img {
+    width: 100%;
+  }
+
+  .sec-02__article-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 6rem;
+  }
 }

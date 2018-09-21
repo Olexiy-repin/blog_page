@@ -1481,6 +1481,86 @@ ul {
 	margin-right: 2.9rem;
 }
 
+.sec-02__article-block {
+	position: relative;
+	margin-bottom: 5rem;
+}
+
+.sec-02__article-block:first-of-type {
+	padding-right: 29rem;
+}
+
+.sec-02__article-block:first-of-type .sec-02__picture {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+}
+
+.sec-02__article-block:first-of-type .sec-02__picture img {
+	width: auto;
+}
+
+.sec-02__article-block:nth-of-type(3) {
+	padding-left: 29rem;
+}
+
+.sec-02__article-block:nth-of-type(3) .sec-02__picture {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+}
+
+.sec-02__article-block:nth-of-type(3) .sec-02__picture img {
+	width: auto;
+}
+
+.sec-02__article-block:nth-of-type(4) {
+	padding-left: 29rem;
+}
+
+.sec-02__article-block:nth-of-type(6) {
+	padding-right: 29rem;
+}
+
+.sec-02__article-block:nth-of-type(7) {
+	padding-right: 29rem;
+}
+
+.sec-02__article-block:nth-of-type(7) .sec-02__picture {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: block;
+}
+
+.sec-02__article-block:nth-of-type(7) .sec-02__picture img {
+	width: auto;
+}
+
+.sec-02__article-block:last-of-type .sec-02__picture img {
+	width: auto;
+}
+
+.sec-02__article-paragraph {
+	text-align: left;
+}
+
+.sec-02__article-paragraph {
+	font-size: 1rem;
+}
+
+.sec-02__img-aside-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
 .sec-03 {
 	padding-top: 10.3rem;
 }
@@ -1493,6 +1573,50 @@ ul {
 .sec-03__theme-block {
 	padding: 1rem 0;
 	margin-bottom: 2.8rem;
+}
+
+.sec-03__article-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.sec-03 .sec-02__article-title {
+	padding: 0 2rem;
+}
+
+.sec-03 .sec-02__article {
+	width: 32%;
+	margin-bottom: 0;
+}
+
+.sec-03 .sec-02__article:first-of-type {
+	width: 32%;
+}
+
+.sec-03 .sec-02__article:last-of-type {
+	margin-bottom: 0;
+}
+
+.sec-03 .sec-02__article-content {
+	display: none;
+}
+
+.sec-02__article-img {
+	width: 100%;
+}
+
+.sec-02__article-btn {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 6rem;
 }
 
 .sec-04 {
@@ -1561,6 +1685,14 @@ ul {
 .rezart-logo {
 	right: 0rem;
 	top: -.6rem;
+}
+
+}
+
+@media (max-width: 1199px) {
+
+.sec-02__img-aside-container {
+	display: none;
 }
 
 }
